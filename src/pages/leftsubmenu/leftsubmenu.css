@@ -1,0 +1,28 @@
+.lnks {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.lnks:hover {
+  border-left: 4px solid var(--main-color-blue);
+}
+
+.btn_box {
+  padding-top: 10px;
+}
+
+.col-12 {
+  background-color: #fff;
+  margin-right: 60px;
+  padding: 20px;
+}
+
+.ant-table-cell .anticon {
+  visibility: hidden;
+}
+
+.ant-table-cell:hover .anticon {
+  visibility: visible;
+}

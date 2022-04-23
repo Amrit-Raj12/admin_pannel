@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&display=swap');
+
+@media only screen and (max-width: 600px){
+
+    .na-page::before{
+        content: "";
+  background-image: linear-gradient(rgba(255, 255, 255, 0.63), rgba(0, 0, 0, 0.623)),
+    url(../../assets/images/bg.jpg);
+  position: fixed;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(5px);
+  margin: -10px; 
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        text-align: center;
+    }
+    .content>div{
+        z-index: 3;
+    }
+    h1, p{
+        color: #fff !important;
+        font-family: Inconsolata;
+    }
+    .imp-text{
+        color: yellow !important;
+    }
+}
+
+
+
+@media screen and (min-width: 1920px){
+    .na-page{
+        display: none;
+    }
+}
